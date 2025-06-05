@@ -1,0 +1,965 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-about {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar-about {
+
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.nav-upper {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-upper ul {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #354463;
+    line-height: 2.5rem;
+
+}
+
+.nav-element-1 {
+    color: #354463;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.nav-lower {
+    display: flex;
+    flex: 1;
+
+}
+
+.button-1 {
+    justify-content: center;
+    background-color: #C1F7D5;
+    color: #354463;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 999px;
+    height: 100%;
+    width: 80%;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+
+
+.image {
+    margin-top: 2vh;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.image-laugh {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/laugh-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8) contrast(1.1) saturate(0.8);
+    flex-direction: column;
+    flex: 1;
+}
+
+.stopclimatechange {
+    position: absolute;
+    height: 15%;
+    width: 35%;
+    top: 5%;
+    left: 12%;
+}
+
+.card-1 {
+    height: 45%;
+    width: 80%;
+    display: flex;
+    position: absolute;
+    background-color: white;
+    top: 72%;
+    left: 50%;
+    translate: -50% -50%;
+    color: #354463;
+    font-size: 2.2rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.card-issue {
+
+    display: flex;
+    height: 12%;
+    width: 40%;
+    background-color: #354463;
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-values {
+    width: 100%;
+    background-color: #354463;
+    position: relative;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 1.8rem;
+
+
+}
+
+
+.mission-card {
+    display: flex;
+    height: 4%;
+    width: 130px;
+    padding: 2rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    color: #354463;
+    background-color: white;
+    margin: 10% 40% 10% 30%;
+}
+
+
+.mission-paragraph {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    line-height: 2.8rem;
+    padding-right: 2rem;
+    margin-left: 10%;
+    margin-bottom: 10%;
+
+}
+
+
+.group-icons {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: left;
+
+}
+
+.group-icons-1 {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    flex-basis: 40%;
+
+}
+
+.group-icons img {
+    height: 4rem;
+
+}
+
+
+.team {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
+    position: relative;
+
+}
+
+.card-team,
+.team-images,
+.name-title {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+
+.card-team {
+    display: flex;
+    height: 4%;
+    width: 130px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #354463;
+    color: white;
+    margin: 10% 40% 10% 30%;
+
+}
+
+.paragraph-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-team-1 {
+    font-size: 2.4rem;
+    color: #354463;
+    text-align: center;
+    line-height: 2.8rem;
+    padding-right: 2rem;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.paragraph-team-2 {
+    font-size: 1.5rem;
+    color: #354463;
+    text-align: center;
+    line-height: 1.8rem;
+    padding-right: 2rem;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.team-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7rem;
+    position: relative;
+    margin-bottom: 12%;
+
+}
+
+.team-images-1 img {
+    height: 90%;
+    width: 100%;
+}
+
+.team-images-1 {
+    flex-basis: 40%;
+}
+
+.name-title {
+    width: 38%;
+    height: 10%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    margin-top: -2%;
+}
+
+.impact {
+
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.impact-background {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url('images/impact.png');
+    background-repeat: no-repeat;
+    opacity: 1.8;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: rgba(4, 4, 62, 0.8);
+}
+
+.impact-card {
+    display: flex;
+    height: 5%;
+    width: 130px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    color: #354463;
+    background-color: white;
+    margin: 10% 0 5% 0;
+    align-self: center;
+
+}
+
+.impact-paragraph {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    line-height: 2.8rem;
+    align-items: center;
+    margin: 0 5% 5% 5%;
+}
+
+.count h1:first-child {
+    font-size: 5rem;
+    font-family: Flood Std, Regular;
+}
+
+.count h1:last-child {
+    max-width: 50%;
+    display: inline-block;
+
+}
+
+
+.count-all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.image-sliding {
+    height: auto;
+    padding-bottom: 10%;
+    background-color: #354463;
+}
+
+.text-future {
+    font-family: Flood Std, Regular;
+    font-size: 4rem;
+    color: white;
+    max-width: 70%;
+    display: inline-block;
+    text-align: center;
+    margin: 10% 0 15% 10%;
+}
+
+.image-sliding-active{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    width:90%;
+    background-color: white;
+    margin-left: 5%;
+    position: relative;
+}
+
+.slide{
+    display: flex;
+}
+
+.slide-image{
+    
+    width:100%;
+    height: 45%;
+}
+
+.year{
+    
+    height: 7%;
+    width: 180px;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left:50%;
+    translate: -50% -50%;
+    color: #354463;
+    background-color: white;
+
+
+}
+.image-sliding-content{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.image-sliding-content p:first-child{
+    font-size: 3rem;
+    color: #354463;
+    text-align: center;
+    margin: 5% 0 2% 3%;
+    flex:3;
+}
+
+.image-sliding-content p:last-of-type{
+    font-size: 2rem;
+    color: #354463;
+    text-align: center;
+    margin: 0 0 5% 3%;
+    line-height: 2.5rem;
+    flex:3;
+}
+.image-sliding-content button{
+    width:130px;
+    min-height:50px;
+    color:#354463;
+    background-color: #C1F7D5;
+    border:none;
+    border-radius: 999px;
+    flex:2;
+    margin-bottom:5%;
+    align-self: center;
+}
+
+.slide .image-sliding-active:nth-child(n+2){
+    display: none;
+}
+
+
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    background-color:#C1F7D5;
+    height: 25vh;
+    width: 100%;
+}
+
+.subscribe-text{
+    color: #354463;
+    font-size: 2.3rem;
+    text-align: left;
+    line-height: 2.8rem;
+    margin:10% 0 10% 0;
+    max-width:85%;
+    align-self: center;
+
+}
+
+.subscription-mail{
+    display: flex;
+    height:20%;
+    justify-content: space-around;
+}
+
+.subscription-mail input{
+    border-radius: 999px;
+    border:none;
+    text-align: center;
+    width:60%;
+    height:80%;
+
+
+}
+
+.subscribe{
+    background-color: #354463;
+    color:#C1F7D5;
+    border-radius: 999px;
+    width:30%;
+    height:80%;
+    border:none;
+}
+
+.contact-details{
+    height: 70vh;
+    padding:10%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+.contact-domain{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    font-size: 14px;
+    color: #354463;
+    gap:2px;
+    line-height: 24px;
+}
+.contact-domain:first-child{
+    max-width:40%;
+    display: inline-block;
+    font-size: 20px;    
+
+}
+.contact-domain:nth-child(3) span,.contact-domain:nth-child(4) span{
+    text-decoration: underline;
+}
+
+.contact-domain:last-child{
+
+    font-family:Flood Std, Regular;
+    font-size: 40px;
+    margin-left: auto;
+    line-height: 42px;
+}
+
+
+
+@media (min-width:768px) and (max-width:1199px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav-bar-about {
+        flex-direction: row;
+        flex: 3;
+    }
+
+    .nav-upper {
+        flex-direction: column;
+        flex: 2;
+        align-items: flex-start;
+        padding-left: 3rem;
+    }
+
+    .nav-lower {
+        height: 60%;
+        margin: auto;
+        flex: 1;
+    }
+
+    .nav-content {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .image-laugh {
+        background-image: url('images/laugh-tablet.png');
+
+    }
+
+    .stopclimatechange {
+        height: 14%;
+        width: 22%;
+        top: 20%;
+        left: 10%;
+    }
+
+    .card-1 {
+        text-align: left;
+        padding: 3rem;
+        height: 40%;
+    }
+
+    .card-issue {
+        left: 20%;
+        font-size: 1.2rem;
+        width: 20%;
+        height: 15%;
+    }
+
+    .mission-card {
+        width: 200px;
+        margin: 5% 0 2% 0;
+
+    }
+
+    .mission-paragraph {
+        text-align: left;
+        margin: 0 0 10% 0;
+
+    }
+
+    .mission-values {
+        height: 130vh;
+        padding-left: 10%;
+
+
+    }
+
+    .group-icons-1 {
+        flex-basis: 26%;
+    }
+
+    .team {
+        height: 110vh;
+    }
+
+    .card-team,
+    .team-images,
+    .name-title {
+        margin-left: 10%;
+    }
+
+    .card-team {
+        margin: 5% 0 2% 10%;
+        width: 200px;
+
+
+    }
+
+    .paragraph-team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .paragraph-team-1 {
+        margin: 0 0 10% 10%;
+        padding: 0;
+        flex-basis: 40%;
+        text-align: left;
+
+    }
+
+    .paragraph-team-2 {
+        margin: 0 0 10% 10%;
+        padding: 0;
+        flex-basis: 40%;
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+    }
+
+    .team-images-1 img {
+        height: 70%;
+        width: 100%;
+    }
+
+    .name-title {
+        height: 5%;
+        margin: -5% 0 0 3%;
+        width: 37%;
+    }
+
+    .impact {
+        height: 80vh;
+        width: 100%;
+
+    }
+
+    .impact-background {
+
+        background-image: url('images/impact-2.png');
+        width: 100%;
+        background-position-y: 30%;
+    }
+
+    .impact-paragraph {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .count-all {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .count {
+        flex-basis: 40%;
+        height: 70%;
+
+    }
+
+    .count h1:last-child {
+        max-width: 80%;
+    }
+
+    .text-future {
+        max-width: 80%;
+        margin-left: 2%;
+    }
+
+    .image-sliding-active{
+        margin-right:4%;
+    }
+   .image-sliding-content p:first-child{
+    font-size: 2rem;
+   }
+
+   .image-sliding-content p:last-of-type{
+    font-size: 1.33rem;
+   }
+
+    .slide .image-sliding-active:nth-child(1),.slide .image-sliding-active:nth-child(2){
+    display: flex;
+}
+
+    .subscribe-form{
+        height:40vh;
+    }
+    .subscribe-text{
+        max-width:60%;
+        align-self: start;
+        margin-left:3%;
+        font-size: 1.9rem;
+
+}
+
+.contact-domain{
+    flex-basis: 30%;
+}
+.contact-domain:nth-child(4){
+    margin-left: auto;
+}
+.contact-domain:last-child{
+    margin-left: 0;
+}
+
+}
+
+
+@media (min-width:1200px) {
+    html {
+        font-size: 14px;
+    }
+
+    .nav-bar-about {
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .nav-upper {
+        flex: 5;
+    }
+
+    .nav-content {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .nav-lower {
+        height: auto;
+        margin: auto;
+        flex: 1;
+    }
+
+    .button-1 {
+        padding: 1rem;
+    }
+
+    .image {
+        height: 50vh;
+    }
+
+    .image-laugh {
+        background-image: url('images/laugh-desktop.png');
+
+
+    }
+
+    .stopclimatechange {
+        height: 26%;
+        width: 14%;
+        top: 20%;
+        left: 10%;
+    }
+
+
+    .card-1 {
+        left: 70%;
+        top: 90%;
+        width: 45%;
+        height: 45%;
+        z-index: 1;
+        text-align: left;
+        padding: 3rem;
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+
+    }
+
+
+    .card-issue {
+        left: 20%;
+        font-size: 1.2rem;
+        width: 25%;
+        height: 12%;
+    }
+
+    .mission-values {
+        height: 130vh;
+    }
+
+    .mission-card {
+        margin: 5% 0 2% 0;
+        width: 240px;
+    }
+
+    .mission-paragraph {
+        text-align: left;
+        margin: 0 0 10% 0;
+    }
+
+    .group-icons-1 {
+        flex-basis: 18%;
+    }
+
+    .card-team {
+        margin: 5% 0 2% 0;
+        width: 240px;
+    }
+
+    .paragraph-team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .paragraph-team-1 {
+        margin: 0 0 10% 10%;
+        padding: 0;
+        flex-basis: 40%;
+        text-align: left;
+
+    }
+
+    .paragraph-team-2 {
+        margin: 0 0 10% 10%;
+
+        padding: 0;
+        flex-basis: 40%;
+        text-align: left;
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+    }
+
+    .card-team,
+    .team-images,
+    .name-title {
+        margin-left: 10%;
+    }
+
+    .team-images {
+        gap: 4rem;
+    }
+
+    .name-title {
+        margin: -5% 0 0 3%;
+        width: 24%;
+    }
+
+    .team-images-1 {
+
+        flex-basis: 25%;
+
+    }
+
+    .impact-background {
+        background-image: url('images/impact-2.png');
+        background-position-y: 30%;
+    }
+
+    .impact-card {
+        width: 180px;
+        height: 7%;
+    }
+
+    .impact-paragraph {
+        font-size: 3.8rem;
+        line-height: 4.3rem;
+        margin: 0 10% 5% 10%;
+
+    }
+
+    .impact {
+        height: 90vh;
+    }
+
+    .count-all {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .count {
+        flex-basis: 20%;
+        height: 90%;
+
+    }
+
+    .count h1:last-child {
+        max-width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .text-future{
+    max-width: 60%;
+    margin-left: 10%;
+    text-align: left;
+    }
+    .image-sliding{
+        height:auto;
+        padding-bottom:10%;
+    }
+
+    .slide-image{
+
+        background-image: url('images/image-sliding-max.png');
+    }
+
+    .image-sliding-active{
+        margin-right:4%;
+    }
+   .image-sliding-content p:first-child{
+    font-size: 2rem;
+   }
+
+   .image-sliding-content p:last-of-type{
+    font-size: 1.33rem;
+   }
+
+    .slide .image-sliding-active:nth-child(n){
+    display: flex;
+}
+
+    .subscribe-form{
+        padding-left: 2%;
+        height:30vh;
+        flex-direction: row;
+        flex:1;
+    }
+
+    .subscribe-text{
+        margin:80px 0 10% 0;
+        flex:2;
+        font-size: 2rem;
+        align-self: flex-start;
+
+    }
+    .subscription-mail{
+        flex:2;
+        margin:100px 0 10% 0;
+
+    }
+
+    .contact-domain{
+    flex-basis: 20%;
+}
+
+.contact-domain:last-child{
+    margin-left: 0;
+}
+
+}

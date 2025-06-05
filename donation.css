@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    color: #354463;
+    font-size: 3rem;
+    text-align: center;
+    max-width: 50%;
+    padding: 2rem;
+    margin: auto;
+}
+
+.form {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-background {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/form-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.quote {
+    display: flex;
+    font-family: Flood Std, Regular;
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    background-color: #354463;
+    align-self: center;
+    margin: 5%;
+
+}
+
+.your-information,
+.payment-information,
+.payment-process {
+    color: white;
+    font-size: 1.3rem;
+    width: 90%;
+    padding: 3rem;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.side-heading {
+    font-size: 3rem;
+}
+
+.name {
+    display: flex;
+    flex: 1;
+
+
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.street-address {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.location {
+    display: flex;
+    flex: 1;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.state {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+select {
+    color: #C1F7D5;
+}
+
+.zip-code {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.email-address {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.credit-card-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.expiration-security-details {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.expiration-date {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.expire-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.security-code {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+.field-min {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    width: 90%;
+    padding-bottom: 1rem;
+}
+
+.field-max {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    outline: none;
+    width: 95%;
+    padding-bottom: 1rem;
+
+}
+
+.field-tiny {
+
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    outline: none;
+    width: 85%;
+    padding-bottom: 1rem;
+
+
+}
+
+.field-expire {
+
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    outline: none;
+    width: 30%;
+    margin-right: 10px;
+    padding-bottom: 1rem;
+
+}
+
+.payment-process {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+
+.process-back {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.process-back a {
+    color: #C1F7D5;
+    font-size: 1.2rem;
+    align-content: center;
+}
+
+.process-back button {
+    background-color: #C1F7D5;
+    color: #354463;
+    border-radius: 999px;
+    width: 210px;
+    height: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border: none;
+    align-self: center;
+}
+
+.contact-details {
+    height: 70vh;
+    padding: 10%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+.contact-domain {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    font-size: 14px;
+    color: #354463;
+    gap: 2px;
+    line-height: 24px;
+}
+
+.contact-domain:first-child {
+    max-width: 40%;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.contact-domain:nth-child(3) span,
+.contact-domain:nth-child(4) span {
+    text-decoration: underline;
+}
+
+.contact-domain:last-child {
+
+    font-family: Flood Std, Regular;
+    font-size: 40px;
+    margin-left: auto;
+    line-height: 42px;
+}
+
+
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .form {
+        height: 150vh;
+    }
+
+    .heading {
+        max-width: 30%;
+
+    }
+
+    .quote {
+        max-width: 60%;
+        margin-left: 20%;
+
+    }
+
+    .payment-process p {
+        font-size: 2.5rem;
+    }
+
+    .process-back {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .contact-domain {
+        flex-basis: 30%;
+    }
+
+    .contact-domain:nth-child(4) {
+        margin-left: auto;
+    }
+
+    .contact-domain:last-child {
+        margin-left: 0;
+    }
+    .contact-details{
+
+        height:40vh;
+    }
+
+}
+
+
+@media (min-width:1024px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .form {
+        height: 190vh;
+    }
+
+    .donation-form {
+        width: 60%;
+        margin: -10% 0 0 0;
+    }
+
+    .quote {
+        max-width: 30%;
+        margin-top: 10%;
+
+    }
+
+
+
+    .form-background {
+        background-image: url('images/form-background-max.png');
+        background-position: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+
+    }
+
+    .process-back button {
+        width: 260px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .process-back {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .contact-details{
+
+        height:20vh;
+    }
+
+    .contact-domain {
+        flex-basis: 20%;
+    }
+
+    .contact-domain:last-child {
+        margin-left: 0;
+    }
+}

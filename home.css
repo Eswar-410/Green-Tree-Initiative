@@ -1,0 +1,1188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.white-box {
+    background-color: white;
+    color: #354463;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top:-3%;
+    left: 60%;
+}
+
+.dark-box {
+    background-color: #354463;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.readmore {
+    margin: 10px auto;
+    font-size: 1.3rem;
+    width: 50%;
+    color: #354463;
+    font-weight: bold;
+    padding: 3% 8% 3% 8%;
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+}
+
+
+html {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-home {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-bar-home {
+
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.nav-upper {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-upper ul {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #354463;
+    line-height: 2.5rem;
+
+}
+
+.nav-element-1 {
+    color: #354463;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.nav-lower {
+    display: flex;
+    flex: 1;
+
+}
+
+.nav-lower a{
+    display:flex;
+    justify-content: center;
+    background-color: #C1F7D5;
+    color: #354463;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 999px;
+    height: 100%;
+    width: 80%;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.image {
+    margin-top: 2vh;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.carry-child {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/carry-child-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 80%;
+
+    filter: brightness(0.7) saturate(1.2) contrast(1.3);
+    flex-direction: column;
+    flex: 1;
+}
+
+.stopclimatechange {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    top: 5%;
+    left: 12%;
+}
+
+.card-1 {
+    height: 35%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    top: 72%;
+    left: 50%;
+    translate: -50% -50%;
+    color: #354463;
+    font-size: 2.3rem;
+    padding: 2rem;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 2.8rem;
+
+}
+
+.card-1 p:last-of-type {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    line-height: 2.5rem;
+
+
+}
+
+
+.card-issue {
+
+    display: flex;
+    height: 18%;
+    width: 140px;
+    background-color: #354463;
+    color: white;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+
+    display: flex;
+    height: 13%;
+    width: 140px;
+    background-color: #354463;
+    color: white;
+    position: absolute;
+    font-size: 1.2rem;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    background-color: #C1F7D5;
+    color: #354463;
+    font-size: 1.6rem;
+}
+
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+.image-slide {
+    width: 100%;
+    background-color: #354463;
+    padding: 0 4rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+
+
+
+}
+
+.what-we-do-card {
+    display: flex;
+    height: 30px;
+    width: 140px;
+    font-size: 1.4rem;
+    margin: 20px 0 20px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: #354463;
+    background-color: white;
+}
+
+
+.text-mission {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    line-height: 2.8rem;
+    margin: 5% 0 100px 5%;
+
+
+}
+
+.image-separation {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.image-separation:last-child {
+    margin-bottom: 10vw;
+}
+
+.image-separation-1:not(:last-of-type) {
+    margin-bottom: 40vw;
+
+}
+
+.image-separation-1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 95%;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 2.2rem;
+    color: #354463;
+    line-height: 2.8rem;
+    justify-content: space-around;
+    position: relative;
+    padding: 200px 0 3rem 0;
+
+
+}
+
+.image-setting {
+    min-height: 40%;
+    max-height: 70%;
+    width: 70%;
+    flex: 2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% -30%;
+    filter: brightness(0.9) saturate(1.2) contrast(1.1);
+
+}
+
+.content-1 {
+    flex: 1;
+}
+
+.content-2 {
+    font-size: 2rem;
+    flex: 3;
+    margin: 3rem;
+}
+
+.content-3 {
+    background-color: #C1F7D5;
+    flex: 1;
+    width: 130px;
+    margin: auto;
+    min-height: 50px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 999px;
+}
+
+
+
+.climate-change {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+
+}
+
+.climate-image {
+
+    height: 100%;
+    width: 100%;
+    background-image: url('images/climate-change-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 90%;
+    padding: 64px 0 32px 32px;
+
+
+}
+
+.poverty-dependence {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.climate-change-text {
+    display: flex;
+    font-family: Flood Std, Regular;
+    font-size: 4rem;
+    color: white;
+    max-width: 70%;
+    margin-bottom: 20px;
+    flex: 2;
+}
+
+.button-action {
+    display: flex;
+    background-color: #C1F7D5;
+    color: #354463;
+    width: 150px;
+    min-height: 5rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 1.8rem;
+    border: none;
+    flex: 1;
+}
+
+.did-you-know {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #354463;
+    position: relative;
+    flex: 5;
+
+
+}
+
+.know-card {
+
+    height: 5%;
+    width: 130px;
+    background-color: #354463;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -65% -50%;
+    font-size: 14px;
+    text-align: center;
+    align-content: center;
+}
+
+.did-you-know-1 {
+    display: flex;
+    min-height: 50%;
+    width: 90%;
+    font-size: 1.7rem;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+
+.did-you-know-1 img {
+
+    height: 32px;
+    min-width: 28px;
+    background-color: #C1F7D5;
+    padding: 9px 8px 10px 8px;
+    border-radius: 100%;
+    flex-basis: 10%;
+}
+
+
+
+.did-you-know-1 p:first-child {
+    font-size: 2.5rem;
+}
+
+
+
+.did-you-know-1 p {
+    flex-basis: 80%;
+    line-height: 2.3rem;
+}
+
+.stories {
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+}
+
+.stories-img {
+    flex: 1;
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.stories-img img {
+    width: 100%;
+    height: 80%;
+}
+
+.stories-content {
+    flex: 1;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories-text {
+    text-align: center;
+    background-color: #354463;
+    padding: 6%;
+    color: #fff;
+}
+
+.stories-text .main-text {
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
+
+.stories-text .sub-text {
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
+.stories-content .readmore {
+    width: 35vw;
+}
+
+.lets-take-action {
+    background-color: #354463;
+}
+
+.lets-take-action .heading {
+    font-family: Flood Std;
+    color: #fff;
+    font-size: 2.75rem;
+    line-height: 2.9rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    padding: 5% 10% 10% 10%;
+}
+
+.lets-take-action-card-1,
+.lets-take-action-card-2 {
+    position: relative;
+    background-color: #354463;
+    padding: 0% 10% 10% 10%;
+    margin: 0%;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.card-contents .main-text {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 2%;
+}
+
+.card-contents .sub-text {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.lets-take-action-card-1 .white-box,
+.lets-take-action-card-2 .white-box {
+    left: 30%;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    background-color:#C1F7D5;
+    height: 25vh;
+    width: 100%;
+}
+
+.subscribe-text{
+    color: #354463;
+    font-size: 2.3rem;
+    text-align: left;
+    line-height: 2.8rem;
+    margin:10% 0 10% 0;
+    max-width:85%;
+    align-self: center;
+
+}
+
+.subscription-mail{
+    display: flex;
+    height:20%;
+    justify-content: space-around;
+}
+
+.subscription-mail input{
+    border-radius: 999px;
+    border:none;
+    text-align: center;
+    width:60%;
+    height:80%;
+
+
+}
+
+.subscribe{
+    background-color: #354463;
+    color:#C1F7D5;
+    border-radius: 999px;
+    width:30%;
+    height:80%;
+    border:none;
+}
+
+.contact-details{
+    height: 70vh;
+    padding:10%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+.contact-domain{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    font-size: 14px;
+    color: #354463;
+    gap:2px;
+    line-height: 24px;
+}
+.contact-domain:first-child{
+    max-width:40%;
+    display: inline-block;
+    font-size: 20px;    
+
+}
+.contact-domain:nth-child(3) span,.contact-domain:nth-child(4) span{
+    text-decoration: underline;
+}
+
+.contact-domain:last-child{
+
+    font-family:Flood Std, Regular;
+    font-size: 40px;
+    margin-left: auto;
+    line-height: 42px;
+}
+
+
+@media (min-width:768px) and (max-width:1199px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav-bar-home {
+        flex-direction: row;
+        flex: 3;
+    }
+
+    .nav-upper {
+        flex-direction: column;
+        flex: 2;
+        align-items: flex-start;
+        padding-left: 3rem;
+    }
+
+    .nav-lower {
+        height: 60%;
+        margin: auto;
+        flex: 1;
+    }
+
+    .nav-content {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .carry-child {
+        background-image: url('images/carry-child-tablet.png');
+    }
+
+
+    .stopclimatechange {
+        height: 14%;
+        width: 22%;
+        top: 20%;
+        left: 10%;
+    }
+
+    .card-1 {
+        text-align: left;
+        padding: 3rem;
+        height: 50%;
+        top: 70%;
+        font-size: 2.9rem;
+        line-height: 3.2rem;
+    }
+
+    .card-issue {
+        left: 20%;
+        font-size: 1.2rem;
+        width: 20%;
+        height: 15%;
+    }
+
+
+    .image-slide {
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .what-we-do-card {
+        align-self: normal;
+
+    }
+
+    .text-mission {
+        text-align: left;
+        margin: 0 0 10% 5%;
+        font-size: 3rem;
+        line-height: 3.3rem;
+
+    }
+
+    .image-separation:last-child {
+        margin-bottom: 10vw;
+    }
+
+    .image-separation-1:not(:last-of-type) {
+        margin-bottom: 10vw;
+
+    }
+
+
+    .image-separation-1 {
+        text-align: end;
+        max-height: 28%;
+        padding: 3rem 0 3rem 0;
+
+
+    }
+
+    .image-setting {
+        max-width: 45%;
+        top: 5%;
+        left: 30%;
+        min-height: 50%;
+        max-height: 80%;
+    }
+
+    .content-1 {
+        font-size: 2rem;
+        max-width: 40%;
+        text-align: left;
+        align-content: center;
+        margin-left:56%;
+
+    }
+
+    .content-2 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        max-width: 40%;
+        text-align: left;
+
+        align-self: flex-end;
+
+    }
+
+    .content-3 {
+        font-size: 1.2rem;
+        text-align: center;
+        top: 75%;
+        left: 30%;
+        position: absolute;
+    }
+
+    .climate-image {
+
+        background-image: url('images/climate-change-desktop.png');
+        background-position-x: 0;
+        padding: 64px 0 32px 62px;
+        height: 180vh;
+
+    }
+
+    .climate-change-text {
+
+        max-width: 25%;
+
+    }
+
+    .button-action {
+
+        width: 200px;
+
+    }
+
+    .poverty-dependence {
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .climate-details {
+        flex: 1;
+    }
+
+    .did-you-know {
+        flex: 2;
+        height: 70%;
+    }
+
+    .know-card {
+        left: 30%;
+    }
+
+    .stories-img img {
+        width: 80%;
+    }
+
+    .stories-content {
+        position: relative;
+
+
+    }
+
+    .stories-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        position: absolute;
+        top: -10vh;
+        right: -2%;
+    }
+
+    .stories-content .readmore {
+        margin-top: 12vh;
+        padding: 1.5%;
+        width: 20%;
+    }
+
+    .lets-take-action .heading {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+
+    .lets-take-action-card-1 {
+        display: flex;
+        flex-direction: row-;
+        gap: 10%;
+        height: auto;
+    }
+
+    .card-contents .main-text {
+        margin-top: 30px;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .lets-take-action-card-1 .card-img {
+        width: auto;
+    }
+
+    .card-contents .readmore {
+        width: 50%;
+    }
+
+    .card-contents .sub-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .lets-take-action-card-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5%;
+    }
+
+    .lets-take-action-card-1 .white-box {
+        left: auto;
+        right: 30%;
+    }
+
+    .lets-take-action-card-2 .white-box {
+        left: 20%;
+    }
+
+        .subscribe-form{
+        height:40vh;
+    }
+    .subscribe-text{
+        max-width:60%;
+        align-self: start;
+        margin-left:3%;
+        font-size: 1.9rem;
+
+}
+
+.contact-domain{
+    flex-basis: 30%;
+}
+.contact-domain:nth-child(4){
+    margin-left: auto;
+}
+.contact-domain:last-child{
+    margin-left: 0;
+}
+
+    
+
+
+
+
+
+
+}
+
+
+
+@media (min-width:1200px) {
+    html {
+        font-size: 14px;
+    }
+
+    .nav-bar-home {
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .nav-upper {
+        flex: 5;
+    }
+
+    .nav-content {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .nav-lower {
+        height: auto;
+        margin: auto;
+        flex: 1;
+    }
+
+    .button-1 {
+        padding: 1rem;
+    }
+
+
+
+    .carry-child {
+        background-image: url('images/carry-child-tablet.png');
+    }
+
+    .stopclimatechange {
+        height: 30%;
+        width: 20%;
+        top: 20%;
+        left: 60%;
+    }
+
+
+    .card-1 {
+        left: 30%;
+        top: 50%;
+        width: 40%;
+        height: 70%;
+        text-align: left;
+        padding: 3rem;
+        line-height: 3.4rem;
+        font-size: 2.8rem;
+
+    }
+
+    .card-1 p:last-of-type {
+        font-size: 1.2rem;
+    }
+
+
+    .card-issue {
+        left: 20%;
+        font-size: 1.2rem;
+        width: 25%;
+        height: 12%;
+    }
+
+    .group-1 {
+        flex-basis: 25%;
+    }
+
+    .image-slide {
+        padding: 0 6rem 0 6rem;
+        height: 120vh;
+    }
+
+    .what-we-do-card {
+        align-self: normal;
+        margin-left: 0;
+        height: 70px;
+
+    }
+
+    .text-mission {
+        text-align: left;
+        margin: 0 0 100px 0;
+        font-size: 3rem;
+        line-height: 3.3rem;
+
+    }
+
+    .image-separation:last-child {
+        margin-bottom: 0;
+    }
+
+    .image-separation-1:not(:last-of-type) {
+        margin-bottom: 0;
+
+    }
+
+    .image-separation {
+        flex-direction: row;
+        max-width: 95%;
+        justify-content: space-evenly;
+
+    }
+
+    .image-separation-1 {
+        padding: 180px 0 1rem 0;
+        min-width: 27%;
+        margin-bottom: 0;
+        margin-right: 10vw;
+
+
+
+    }
+
+
+    .image-setting {
+        left: 60%;
+        width: 100%;
+        height: 40%;
+    }
+
+
+    .content-1 {
+        font-size: 2.4rem;
+    }
+
+    .content-2 {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        margin: 3rem;
+    }
+
+    .content-3 {
+        width: 230px;
+        font-size: 1.6rem;
+
+    }
+
+    .climate-image {
+
+        background-image: url('images/climate-change-desktop.png');
+        padding: 144px 0 32px 160px;
+        height: 200vh;
+
+
+
+
+    }
+
+    .climate-change-text {
+
+        max-width: 30%;
+    }
+
+    .button-action {
+
+        width: 250px;
+
+    }
+
+    .poverty-dependence {
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .climate-details {
+        flex: 1;
+    }
+
+    .did-you-know {
+        flex: 2;
+        height: 70%;
+    }
+
+    .know-card {
+        left: 30%;
+    }
+
+    .stories {
+        flex-direction: row-reverse;
+        margin: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stories-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .stories-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .stories-text {
+        width: 95%;
+
+        top: 0;
+        right: -5vw;
+    }
+
+    .stories-text .main-text {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .stories-content .readmore {
+        margin-top: 40vh;
+        width: 30%;
+    }
+
+    .lets-take-action .heading {
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+
+    .lets-take-action-card-1 {
+        display: flex;
+        flex-direction: row-;
+        gap: 10%;
+        height: auto;
+    }
+
+    .card-contents .main-text {
+        margin-top: 30px;
+        font-size: 2.75rem;
+        line-height: 4rem;
+    }
+
+    .card-contents .readmore {
+        width: 30%;
+        padding: 2%;
+        margin-top: 30px;
+    }
+
+    .card-contents .sub-text {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+        .subscribe-form{
+        padding-left: 2%;
+        height:30vh;
+        flex-direction: row;
+        flex:1;
+    }
+
+    .subscribe-text{
+        margin:80px 0 10% 0;
+        flex:2;
+        font-size: 2rem;
+        align-self: flex-start;
+
+    }
+    .subscription-mail{
+        flex:2;
+        margin:100px 0 10% 0;
+
+    }
+
+    .contact-domain{
+    flex-basis: 20%;
+}
+
+.contact-domain:last-child{
+    margin-left: 0;
+}
+}
