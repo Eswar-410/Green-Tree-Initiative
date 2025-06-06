@@ -23,6 +23,7 @@ html {
 
     height: 15vh;
     width: 100%;
+    margin:30px 0 30px 0;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -51,6 +52,7 @@ html {
 
 .nav-lower {
     display: flex;
+    margin-top:30px;
     flex: 1;
 
 }
@@ -88,7 +90,7 @@ html {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('images/laugh-mobile.png');
+    background-image: url('../images/laugh-mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(0.8) contrast(1.1) saturate(0.8);
@@ -294,7 +296,7 @@ html {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-image: url('images/impact.png');
+    background-image: url('../images/impact.png');
     background-repeat: no-repeat;
     opacity: 1.8;
     background-size: cover;
@@ -362,127 +364,130 @@ html {
     margin: 10% 0 15% 10%;
 }
 
-.image-sliding-active{
+.image-sliding-active {
     display: flex;
     flex-direction: column;
     height: 55%;
-    width:90%;
+    width: 90%;
     background-color: white;
     margin-left: 5%;
     position: relative;
 }
 
-.slide{
+.slide {
     display: flex;
 }
 
-.slide-image{
-    
-    width:100%;
+.slide-image {
+
+    width: 100%;
     height: 45%;
 }
 
-.year{
-    
+.year {
+
     height: 7%;
     width: 180px;
     font-size: 2rem;
     text-align: center;
     align-content: center;
     position: absolute;
-    left:50%;
+    left: 50%;
     translate: -50% -50%;
     color: #354463;
     background-color: white;
 
 
 }
-.image-sliding-content{
+
+.image-sliding-content {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: column;
 }
-.image-sliding-content p:first-child{
+
+.image-sliding-content p:first-child {
     font-size: 3rem;
     color: #354463;
     text-align: center;
     margin: 5% 0 2% 3%;
-    flex:3;
+    flex: 3;
 }
 
-.image-sliding-content p:last-of-type{
+.image-sliding-content p:last-of-type {
     font-size: 2rem;
     color: #354463;
     text-align: center;
     margin: 0 0 5% 3%;
     line-height: 2.5rem;
-    flex:3;
+    flex: 3;
 }
-.image-sliding-content button{
-    width:130px;
-    min-height:50px;
-    color:#354463;
+
+.image-sliding-content button {
+    width: 130px;
+    min-height: 50px;
+    color: #354463;
     background-color: #C1F7D5;
-    border:none;
+    border: none;
     border-radius: 999px;
-    flex:2;
-    margin-bottom:5%;
+    flex: 2;
+    margin-bottom: 5%;
     align-self: center;
 }
 
-.slide .image-sliding-active:nth-child(n+2){
+.slide .image-sliding-active:nth-child(n+2) {
     display: none;
 }
 
 
 
-.subscribe-form{
+.subscribe-form {
     display: flex;
     flex-direction: column;
-    background-color:#C1F7D5;
+    background-color: #C1F7D5;
     height: 25vh;
     width: 100%;
 }
 
-.subscribe-text{
+.subscribe-text {
     color: #354463;
     font-size: 2.3rem;
     text-align: left;
     line-height: 2.8rem;
-    margin:10% 0 10% 0;
-    max-width:85%;
+    margin: 10% 0 10% 0;
+    max-width: 85%;
     align-self: center;
 
 }
 
-.subscription-mail{
+.subscription-mail {
     display: flex;
-    height:20%;
+    height: 20%;
     justify-content: space-around;
 }
 
-.subscription-mail input{
+.subscription-mail input {
     border-radius: 999px;
-    border:none;
+    border: none;
     text-align: center;
-    width:60%;
-    height:80%;
+    width: 60%;
+    height: 80%;
 
 
 }
 
-.subscribe{
+.subscribe {
     background-color: #354463;
-    color:#C1F7D5;
+    color: #C1F7D5;
     border-radius: 999px;
-    width:30%;
-    height:80%;
-    border:none;
+    width: 30%;
+    height: 80%;
+    border: none;
 }
 
-.contact-details{
+.contact-details {
     height: 70vh;
-    padding:10%;
+    padding: 10%;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -492,28 +497,31 @@ html {
 }
 
 
-.contact-domain{
+.contact-domain {
     display: flex;
     flex-direction: column;
     flex-basis: 45%;
     font-size: 14px;
     color: #354463;
-    gap:2px;
+    gap: 2px;
     line-height: 24px;
 }
-.contact-domain:first-child{
-    max-width:40%;
+
+.contact-domain:first-child {
+    max-width: 40%;
     display: inline-block;
-    font-size: 20px;    
+    font-size: 20px;
 
 }
-.contact-domain:nth-child(3) span,.contact-domain:nth-child(4) span{
+
+.contact-domain:nth-child(3) span,
+.contact-domain:nth-child(4) span {
     text-decoration: underline;
 }
 
-.contact-domain:last-child{
+.contact-domain:last-child {
 
-    font-family:Flood Std, Regular;
+    font-family: Flood Std, Regular;
     font-size: 40px;
     margin-left: auto;
     line-height: 42px;
@@ -551,7 +559,7 @@ html {
     }
 
     .image-laugh {
-        background-image: url('images/laugh-tablet.png');
+        background-image: url('../images/laugh-tablet.png');
 
     }
 
@@ -658,7 +666,7 @@ html {
 
     .impact-background {
 
-        background-image: url('images/impact-2.png');
+        background-image: url('../images/impact-2.png');
         width: 100%;
         background-position-y: 30%;
     }
@@ -689,41 +697,46 @@ html {
         margin-left: 2%;
     }
 
-    .image-sliding-active{
-        margin-right:4%;
+    .image-sliding-active {
+        margin-right: 4%;
     }
-   .image-sliding-content p:first-child{
-    font-size: 2rem;
-   }
 
-   .image-sliding-content p:last-of-type{
-    font-size: 1.33rem;
-   }
-
-    .slide .image-sliding-active:nth-child(1),.slide .image-sliding-active:nth-child(2){
-    display: flex;
-}
-
-    .subscribe-form{
-        height:40vh;
+    .image-sliding-content p:first-child {
+        font-size: 2rem;
     }
-    .subscribe-text{
-        max-width:60%;
+
+    .image-sliding-content p:last-of-type {
+        font-size: 1.33rem;
+    }
+
+    .slide .image-sliding-active:nth-child(1),
+    .slide .image-sliding-active:nth-child(2) {
+        display: flex;
+    }
+
+    .subscribe-form {
+        height: 40vh;
+    }
+
+    .subscribe-text {
+        max-width: 60%;
         align-self: start;
-        margin-left:3%;
+        margin-left: 3%;
         font-size: 1.9rem;
 
-}
+    }
 
-.contact-domain{
-    flex-basis: 30%;
-}
-.contact-domain:nth-child(4){
-    margin-left: auto;
-}
-.contact-domain:last-child{
-    margin-left: 0;
-}
+    .contact-domain {
+        flex-basis: 30%;
+    }
+
+    .contact-domain:nth-child(4) {
+        margin-left: auto;
+    }
+
+    .contact-domain:last-child {
+        margin-left: 0;
+    }
 
 }
 
@@ -763,7 +776,7 @@ html {
     }
 
     .image-laugh {
-        background-image: url('images/laugh-desktop.png');
+        background-image: url('../images/laugh-desktop.png');
 
 
     }
@@ -867,7 +880,7 @@ html {
     }
 
     .impact-background {
-        background-image: url('images/impact-2.png');
+        background-image: url('../images/impact-2.png');
         background-position-y: 30%;
     }
 
@@ -904,62 +917,65 @@ html {
         font-size: 1.8rem;
     }
 
-    .text-future{
-    max-width: 60%;
-    margin-left: 10%;
-    text-align: left;
-    }
-    .image-sliding{
-        height:auto;
-        padding-bottom:10%;
+    .text-future {
+        max-width: 60%;
+        margin-left: 10%;
+        text-align: left;
     }
 
-    .slide-image{
-
-        background-image: url('images/image-sliding-max.png');
+    .image-sliding {
+        height: auto;
+        padding-bottom: 10%;
     }
 
-    .image-sliding-active{
-        margin-right:4%;
+    .slide-image {
+
+        background-image: url('../images/image-sliding-max.png');
     }
-   .image-sliding-content p:first-child{
-    font-size: 2rem;
-   }
 
-   .image-sliding-content p:last-of-type{
-    font-size: 1.33rem;
-   }
+    .image-sliding-active {
+        margin-right: 4%;
+    }
 
-    .slide .image-sliding-active:nth-child(n){
-    display: flex;
-}
+    .image-sliding-content p:first-child {
+        font-size: 2rem;
+    }
 
-    .subscribe-form{
+    .image-sliding-content p:last-of-type {
+        font-size: 1.33rem;
+    }
+
+    .slide .image-sliding-active:nth-child(n) {
+        display: flex;
+    }
+
+    .subscribe-form {
         padding-left: 2%;
-        height:30vh;
+        height: 30vh;
         flex-direction: row;
-        flex:1;
+        flex: 1;
     }
 
-    .subscribe-text{
-        margin:80px 0 10% 0;
-        flex:2;
+    .subscribe-text {
+        margin: 80px 0 10% 0;
+        flex: 2;
         font-size: 2rem;
         align-self: flex-start;
 
     }
-    .subscription-mail{
-        flex:2;
-        margin:100px 0 10% 0;
+
+    .subscription-mail {
+        flex: 2;
+        margin: 100px 0 10% 0;
 
     }
 
-    .contact-domain{
-    flex-basis: 20%;
-}
+    .contact-domain {
+        flex-basis: 20%;
+    }
 
-.contact-domain:last-child{
-    margin-left: 0;
-}
+    .contact-domain:last-child {
+        margin-left: 0;
+    }
 
 }

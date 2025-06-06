@@ -30,7 +30,7 @@ html {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url('images/form-background.png');
+    background-image: url('../images/form-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.6);
@@ -360,7 +360,7 @@ select {
 
 
     .form-background {
-        background-image: url('images/form-background-max.png');
+        background-image: url('../images/form-background-max.png');
         background-position: center;
         flex-direction: row-reverse;
         justify-content: space-around;
